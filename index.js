@@ -1,8 +1,8 @@
-import * as fs from "fs";
-import * as path from "path";
-import moment from "moment";
-import _ from "lodash";
-import cliProgress from "cli-progress";
+const fs = require("fs");
+const path = require("path");
+const moment = require("moment");
+const _ = require("lodash");
+const cliProgress = require("cli-progress");
 
 // Define an array of directories where log folders are located
 const LOG_FOLDERS = [
